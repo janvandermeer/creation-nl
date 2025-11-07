@@ -7,6 +7,9 @@ node_modules/
 .env.local
 .env.*.local
 
+# Production configuration (bevat gevoelige credentials)
+src/config/config.production.php
+
 # IDE
 .vscode/
 .idea/
