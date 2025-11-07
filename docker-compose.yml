@@ -5,7 +5,7 @@ services:
     build: .
     container_name: creation-nl-web
     ports:
-      - "8080:80"
+      - "3033:80"
     volumes:
       - ./public:/var/www/html
       - ./src:/var/www/src

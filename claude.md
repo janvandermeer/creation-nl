@@ -1,8 +1,10 @@
-# Creation.nl - Project Documentatie
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
 
-Creation.nl is een moderne HTML/CSS/PHP website die lokaal draait met Docker. Het project is opgezet voor ontwikkeling en testen van webfunctionaliteit.
+Creation.nl is een moderne HTML/CSS/PHP website die lokaal draait met Docker. Het project gebruikt PHP 8.2, MySQL 8.0, en Apache als webserver.
 
 ## Tech Stack
 
@@ -13,162 +15,130 @@ Creation.nl is een moderne HTML/CSS/PHP website die lokaal draait met Docker. He
 - **Database Management**: PHPMyAdmin
 - **Containerization**: Docker & Docker Compose
 
-## Project Structuur
+## Essential Commands
 
-```
-creation-nl/
-├── .git/                    # Git repository
-├── .gitignore              # Git ignore regels
-├── .htaccess               # Apache configuratie
-├── Dockerfile              # PHP Apache container definitie
-├── apache-config.conf      # Apache virtual host config
-├── docker-compose.yml      # Docker services definitie
-├── README.md               # Project readme
-├── claude.md               # Deze file - AI context
-│
-├── public/                 # Web root directory
-│   ├── css/
-│   │   └── style.css      # Hoofdstijlen
-│   ├── js/
-│   │   └── main.js        # Hoofd JavaScript
-│   ├── images/            # Afbeeldingen directory
-│   └── index.php          # Hoofdpagina
-│
-└── src/                   # Backend PHP code
-    ├── config/
-    │   └── config.php     # Database & app configuratie
-    └── includes/
-        └── database.php   # Database connectie klasse
-```
-
-## Docker Setup
-
-### Services
-
-1. **web** (Port 8080)
-   - PHP 8.2 met Apache
-   - Volumes: `./public` en `./src`
-   - Extensies: mysqli, pdo, pdo_mysql
-
-2. **db** (Port 3306)
-   - MySQL 8.0
-   - Database: `creation_db`
-   - User: `creation_user`
-   - Password: `creation_password`
-
-3. **phpmyadmin** (Port 8081)
-   - Web interface voor database beheer
-
-### Docker Commando's
-
+### Docker Operations
 ```bash
-# Start containers
+# Start ontwikkelomgeving
 docker-compose up -d
 
 # Stop containers
 docker-compose down
 
-# View logs
+# View logs (handig voor debugging)
 docker-compose logs -f
 
-# Rebuild containers
+# Rebuild na Dockerfile wijzigingen
 docker-compose up -d --build
+
+# Container status checken
+docker-compose ps
+
+# Restart specifieke service
+docker-compose restart web
 ```
 
-## Toegang
-
-- **Website**: http://localhost:8080
-- **PHPMyAdmin**: http://localhost:8081
+### Access Points
+- **Website**: http://localhost:3033
+- **PHPMyAdmin**: http://localhost:8081 (database: `creation_db`, user: `creation_user`, password: `creation_password`)
 - **GitHub**: https://github.com/janvandermeer/creation-nl
 
-## Development Workflow
+## Architecture
 
-1. **Code aanpassingen**: Bewerk bestanden in `public/` of `src/`
-2. **Testen**: Wijzigingen zijn direct zichtbaar (geen container restart nodig)
-3. **Git workflow**:
-   ```bash
-   git add .
-   git commit -m "Beschrijving van wijzigingen"
-   git push
-   ```
+### Directory Structure
+```
+public/                 # Web root - Volledige Creation.nl kopie (15 pagina's)
+  ├── index.html        # Homepage
+  ├── portfolio.html    # Portfolio
+  ├── contact.html      # Contact
+  ├── css/              # Webflow stylesheets
+  ├── js/               # JavaScript (jQuery, Webflow)
+  ├── images/           # Alle afbeeldingen (28 bestanden)
+  ├── videos/           # Achtergrond video's
+  ├── banners/          # Banner pagina's
+  ├── internet-marketing/  # Marketing diensten
+  └── [+7 andere pagina's]
 
-## Database Configuratie
+src/                   # Backend code (voor toekomstig gebruik)
+  ├── config/
+  │   └── config.php   # Database configuratie
+  └── includes/
+      └── database.php # Database connectie klasse (PDO)
 
-Configuratie is te vinden in [src/config/config.php](src/config/config.php):
+backup-original/       # Originele PHP project bestanden (backup)
+```
 
-- **DB_HOST**: `db` (container naam)
-- **DB_NAME**: `creation_db`
-- **DB_USER**: `creation_user`
-- **DB_PASS**: `creation_password`
-
-Database connectie voorbeeld:
+### Database Connection Pattern
 ```php
 require_once __DIR__ . '/../src/config/config.php';
 require_once __DIR__ . '/../src/includes/database.php';
 
 $database = new Database();
-$conn = $database->getConnection();
+$conn = $database->getConnection();  // Returns PDO instance
 ```
 
-## Belangrijke Bestanden
+De Database klasse gebruikt PDO met prepared statements voor veiligheid.
 
-### [public/index.php](public/index.php)
-De hoofdpagina met HTML structuur en PHP integratie.
+### Configuration
+[src/config/config.php](src/config/config.php) bevat:
+- Database credentials (host: `db` - container naam!)
+- Site instellingen (SITE_NAME, SITE_URL)
+- Environment mode (development/production)
+- Error reporting configuratie
+- Timezone: Europe/Amsterdam
 
-### [public/css/style.css](public/css/style.css)
-CSS styling met:
-- CSS variabelen voor kleuren
-- Responsive design
-- Modern layout
+### Development Mode
+- Development mode is standaard actief (`ENVIRONMENT = 'development'`)
+- Full error reporting enabled in development
+- Wijzigingen in `public/` en `src/` zijn direct zichtbaar (hot reload)
+- PHPMyAdmin beschikbaar voor database beheer
 
-### [src/config/config.php](src/config/config.php)
-Centrale configuratie voor:
-- Database credentials
-- Site instellingen
-- Error reporting
-- Timezone
+## Important Architectural Notes
 
-### [docker-compose.yml](docker-compose.yml)
-Definieert alle Docker services en hun configuratie.
-
-## Ontwikkel Tips
-
-1. **Environment**: Development mode is standaard actief (zie config.php)
-2. **Error Reporting**: Volledige errors zichtbaar in development
-3. **Hot Reload**: Frontend wijzigingen direct zichtbaar
-4. **Database**: Gebruik PHPMyAdmin voor database beheer
-5. **Logs**: Bekijk container logs met `docker-compose logs -f`
+1. **Volume Mounts**: `public/` en `src/` worden gemount in de container, dus wijzigingen zijn direct zichtbaar
+2. **Database Host**: Gebruik `db` (niet `localhost`) - dit is de Docker container naam
+3. **PDO Prepared Statements**: Alle database queries moeten prepared statements gebruiken
+4. **Security**: `src/` staat buiten de web root voor veiligheid
+5. **PHP 8.2 Syntax**: Code moet PHP 8.2 compatibel zijn
 
 ## Troubleshooting
 
-### Port al in gebruik
-```bash
-# Verander ports in docker-compose.yml
+### Port conflicts
+Als port 8080 of 8081 al in gebruik is, wijzig de ports in [docker-compose.yml](docker-compose.yml):
+```yaml
 ports:
   - "8090:80"  # In plaats van 8080
 ```
 
-### Database connectie fout
-- Check of db container draait: `docker-compose ps`
-- Controleer credentials in config.php
-- Wait for database: mogelijk moet web container herstarten
+### Database connection errors
+```bash
+# Check of database container draait
+docker-compose ps
 
-### Bestand wijzigingen niet zichtbaar
-- Check of volumes correct gemount zijn
-- Restart containers: `docker-compose restart`
+# Bekijk database logs
+docker-compose logs db
 
-## Volgende Stappen
+# Mogelijk moet web container wachten - herstart:
+docker-compose restart web
+```
 
-- [ ] Contact formulier toevoegen
-- [ ] Admin panel ontwikkelen
-- [ ] User authenticatie implementeren
-- [ ] Content Management Systeem bouwen
-- [ ] API endpoints toevoegen
+### Changes niet zichtbaar
+```bash
+# Check volume mounts
+docker-compose config
 
-## Notes voor AI Assistenten
+# Hard restart
+docker-compose down && docker-compose up -d
+```
 
-- Project gebruikt PHP 8.2 syntax
-- Database queries via PDO (prepared statements)
-- Responsive design is belangrijk
-- Code moet veilig zijn (XSS, SQL injection preventie)
-- Nederlandse taal voor content
+## Coding Guidelines
+
+- **Taal**: Nederlandse taal voor content en UI
+- **Security**: XSS en SQL injection preventie is kritisch
+  - Gebruik prepared statements voor DB queries
+  - Escape output met `htmlspecialchars()`
+  - Valideer alle user input
+- **PHP**: PHP 8.2 syntax en features gebruiken
+- **Database**: PDO met prepared statements (NOOIT direct queries)
+- **Responsive Design**: Alle nieuwe UI moet responsive zijn
+- **CSS**: Gebruik bestaande CSS variabelen in [public/css/style.css](public/css/style.css)
