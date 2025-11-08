@@ -24,3 +24,17 @@ if (ENVIRONMENT === 'development') {
 
 // Timezone
 date_default_timezone_set('Europe/Amsterdam');
+
+// Email Configuration
+define('MAIL_FROM_EMAIL', 'info@creation.nl');
+define('MAIL_FROM_NAME', 'Creation Online Marketing');
+define('ADMIN_EMAIL', 'info@creation.nl');  // Waar formulier emails naartoe gaan
+
+// SMTP Configuration
+if (ENVIRONMENT === 'production') {
+    define('USE_SMTP', false);  // Uses server's mail()
+    define('MAIL_DISABLE', false);  // Emails enabled in production
+} else {
+    define('USE_SMTP', false);
+    define('MAIL_DISABLE', true);  // Emails disabled in development (alleen logging)
+}

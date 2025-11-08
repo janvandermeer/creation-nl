@@ -1,0 +1,737 @@
+[
+  {
+    "path": "banners/google-ads-banners.html",
+    "url": "https://tst.creation.nl/banners/google-ads-banners.html",
+    "local": {
+      "title": "Google Ads Banners bij Creation de banner experts",
+      "description": "Succesvolle banners voor Google Ads nodig? Maak het verschil met creatieve en originele Google ads banners. Vraag online een offerte aan."
+    },
+    "live": {
+      "title": "Google Ads Banners bij Creation de banner experts",
+      "description": "Succesvolle banners voor Google Ads nodig? Maak het verschil met creatieve en originele Google ads banners. Vraag online een offerte aan."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "banners/html5-banners.html",
+    "url": "https://tst.creation.nl/banners/html5-banners.html",
+    "local": {
+      "title": "HTML5 Banners van Creation zijn 100% maatwerk uit NL",
+      "description": "Snel HTML5 banners nodig? Maak het verschil met creatieve en originele HTML5 bannersets. Creation levert binnen 5 werkdagen maatwerk banners."
+    },
+    "live": {
+      "title": "HTML5 Banners van Creation zijn 100% maatwerk uit NL",
+      "description": "Snel HTML5 banners nodig? Maak het verschil met creatieve en originele HTML5 bannersets. Creation levert binnen 5 werkdagen maatwerk banners."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "banners/offerte-banners.html",
+    "url": "https://tst.creation.nl/banners/offerte-banners.html",
+    "local": {
+      "title": "Offerte bannerset aanvragen - Ads, HTML5 of facebook",
+      "description": "Online formulier voor het aanvragen van een offerte voor HTML5 of Google Ads of facebook banners. Ontvang direct een offerte voor jouw CPC banners."
+    },
+    "live": {
+      "title": "Offerte bannerset aanvragen - Ads, HTML5 of facebook",
+      "description": "Online formulier voor het aanvragen van een offerte voor HTML5 of Google Ads of facebook banners. Ontvang direct een offerte voor jouw CPC banners."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "banners/offerte-bedankt.html",
+    "url": "https://tst.creation.nl/banners/offerte-bedankt.html",
+    "local": {
+      "title": "Bedankt voor het aanvragen van een offerte",
+      "description": "Hartelijk dank voor het aanvragen van offerte voor een bannerset. Wij nemen zo snel mogelijk contact op."
+    },
+    "live": {
+      "title": "Bedankt voor het aanvragen van een offerte",
+      "description": "Hartelijk dank voor het aanvragen van offerte voor een bannerset. Wij nemen zo snel mogelijk contact op."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "banners/tarieven.html",
+    "url": "https://tst.creation.nl/banners/tarieven.html",
+    "local": {
+      "title": "Kosten banners laten maken - tarieven van bannerset",
+      "description": "Creation heeft duidelijk prijzen van html5 of google ads banners. Alle tarieven met formaten duidelijk in beeld. Een offerte aanvragen kan online."
+    },
+    "live": {
+      "title": "Kosten banners laten maken - tarieven van bannerset",
+      "description": "Creation heeft duidelijk prijzen van html5 of google ads banners. Alle tarieven met formaten duidelijk in beeld. Een offerte aanvragen kan online."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "banners/voorbeelden.html",
+    "url": "https://tst.creation.nl/banners/voorbeelden.html",
+    "local": {
+      "title": "voorbeelden HTML5 banners voor Google Ads van Creation",
+      "description": "Voorbeeld van HTML5 en Google Ads banners gemaakt door Creation. Bekijk de voorbeelden van ons werk. Zoek je naar specifieke banners laat het ons weten."
+    },
+    "live": {
+      "title": "voorbeelden HTML5 banners voor Google Ads van Creation",
+      "description": "Voorbeeld van HTML5 en Google Ads banners gemaakt door Creation. Bekijk de voorbeelden van ons werk. Zoek je naar specifieke banners laat het ons weten."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "banners/werkwijze.html",
+    "url": "https://tst.creation.nl/banners/werkwijze.html",
+    "local": {
+      "title": "Werkwijze banners laten maken",
+      "description": "Wil jij HTML5 banners laten maken? Wij makten HTML5 banners op maat voor Google Ads. Lees welk 5 stappen er nodig zijn voor jou maatwerk banners."
+    },
+    "live": {
+      "title": "Werkwijze banners laten maken",
+      "description": "Wil jij HTML5 banners laten maken? Wij makten HTML5 banners op maat voor Google Ads. Lees welk 5 stappen er nodig zijn voor jou maatwerk banners."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "bannerset.html",
+    "url": "https://tst.creation.nl/bannerset.html",
+    "local": {
+      "title": "Bannersets voor display campagnes van Creation",
+      "description": "Succesvolle bewegende bannerset nodig? Maak het verschil met creatieve en originele reclame banners. Vraag nu een offerte aan."
+    },
+    "live": {
+      "title": "Bannersets voor display campagnes van Creation",
+      "description": "Succesvolle bewegende bannerset nodig? Maak het verschil met creatieve en originele reclame banners. Vraag nu een offerte aan."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "contact-bedankt.html",
+    "url": "https://tst.creation.nl/contact-bedankt.html",
+    "local": {
+      "title": "Bedankt voor het invullen van het contact formulier",
+      "description": "Hartelijk dank voor het invullen van het formulier. Wij nemen zo snel mogelijk contact met u op."
+    },
+    "live": {
+      "title": "Bedankt voor het invullen van het contact formulier",
+      "description": "Hartelijk dank voor het invullen van het formulier. Wij nemen zo snel mogelijk contact met u op."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "contact.html",
+    "url": "https://tst.creation.nl/contact.html",
+    "local": {
+      "title": "Online Marketing Rotterdam contact opnemen",
+      "description": "Online marketing bureau Creation uit Rotterdam, Schiekade 133. Bel 0101-2680368 voor Creation online marketing bureau."
+    },
+    "live": {
+      "title": "Online Marketing Rotterdam contact opnemen",
+      "description": "Online marketing bureau Creation uit Rotterdam, Schiekade 133. Bel 0101-2680368 voor Creation online marketing bureau."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "cookie.html",
+    "url": "https://tst.creation.nl/cookie.html",
+    "local": {
+      "title": "Cookieverklaring Creation te Rotterdam",
+      "description": "Hoe gaan wij om met Cookies? Lees het in de cookieverklaring."
+    },
+    "live": {
+      "title": "Cookieverklaring Creation te Rotterdam",
+      "description": "Hoe gaan wij om met Cookies? Lees het in de cookieverklaring."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "index.html",
+    "url": "https://tst.creation.nl/index.html",
+    "local": {
+      "title": "Creation Online Marketing Rotterdam",
+      "description": "Je website vindbaar, meer bezoekers door Google Ads of HTML5 banners voor je display campagne. Bel Online marketing bureau Creation uit Rotterdam."
+    },
+    "live": {
+      "title": "Creation Online Marketing Rotterdam",
+      "description": "Je website vindbaar, meer bezoekers door Google Ads of HTML5 banners voor je display campagne. Bel Online marketing bureau Creation uit Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "internet-marketing/conversie-optimalisatie.html",
+    "url": "https://tst.creation.nl/internet-marketing/conversie-optimalisatie.html",
+    "local": {
+      "title": "Conversie optimalisatie CRO",
+      "description": "Conversie-optimalisatie (CRO). Verhoog je digital marketing effectiviteit met CRO. Bel Creation voor de inzet van CRO voor jouw website."
+    },
+    "live": {
+      "title": "Conversie optimalisatie CRO",
+      "description": "Conversie-optimalisatie (CRO). Verhoog je digital marketing effectiviteit met CRO. Bel Creation voor de inzet van CRO voor jouw website."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "internet-marketing/google-ads.html",
+    "url": "https://tst.creation.nl/internet-marketing/google-ads.html",
+    "local": {
+      "title": "Google Ads inzetten om meer klanten te werven. Creation helpt",
+      "description": "Nu starten met Google Ads voor direct meer bezoekers op je website. Creation maakt en beheert je Google Ads Campagne. Bel voor een offerte."
+    },
+    "live": {
+      "title": "Google Ads inzetten om meer klanten te werven. Creation helpt",
+      "description": "Nu starten met Google Ads voor direct meer bezoekers op je website. Creation maakt en beheert je Google Ads Campagne. Bel voor een offerte."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "internet-marketing/websites.html",
+    "url": "https://tst.creation.nl/internet-marketing/websites.html",
+    "local": {
+      "title": "Websites laten maken met online marketing",
+      "description": "Op zoek naar een website? Wij maken websites op maat."
+    },
+    "live": {
+      "title": "Websites laten maken met online marketing",
+      "description": "Op zoek naar een website? Wij maken websites op maat."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "internet-marketing/zoekmachine-optimalisatie.html",
+    "url": "https://tst.creation.nl/internet-marketing/zoekmachine-optimalisatie.html",
+    "local": {
+      "title": "Zoekmachine optimalisatie SEO voor hoger in Google",
+      "description": "Zoekmachine optimalisatie, ook wel search engine optimization (SEO) genoemd, wordt gebruikt om websites hoger te laten ranken binnen Google."
+    },
+    "live": {
+      "title": "Zoekmachine optimalisatie SEO voor hoger in Google",
+      "description": "Zoekmachine optimalisatie, ook wel search engine optimization (SEO) genoemd, wordt gebruikt om websites hoger te laten ranken binnen Google."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/banner-formaten-in-nederland.html",
+    "url": "https://tst.creation.nl/kennisbank/banner-formaten-in-nederland.html",
+    "local": {
+      "title": "Banner formaten in Nederland - Banners",
+      "description": "Informtie over Banners. Banner formaten in Nederland door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Banner formaten in Nederland - Banners",
+      "description": "Informtie over Banners. Banner formaten in Nederland door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/display-campagne.html",
+    "url": "https://tst.creation.nl/kennisbank/display-campagne.html",
+    "local": {
+      "title": "Display campagne - Banners",
+      "description": "Informtie over Banners. Display campagne door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Display campagne - Banners",
+      "description": "Informtie over Banners. Display campagne door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/google-ad-grants.html",
+    "url": "https://tst.creation.nl/kennisbank/google-ad-grants.html",
+    "local": {
+      "title": "Google Ad Grants - Google Ads",
+      "description": "Informtie over Google Ads. Google Ad Grants door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Google Ad Grants - Google Ads",
+      "description": "Informtie over Google Ads. Google Ad Grants door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/google-ads-checklist.html",
+    "url": "https://tst.creation.nl/kennisbank/google-ads-checklist.html",
+    "local": {
+      "title": "Google Ads Checklist - Google Ads",
+      "description": "Informtie over Google Ads. Google Ads Checklist door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Google Ads Checklist - Google Ads",
+      "description": "Informtie over Google Ads. Google Ads Checklist door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/google-ads-uitbesteden-vs-google-ads-zelf-beheren.html",
+    "url": "https://tst.creation.nl/kennisbank/google-ads-uitbesteden-vs-google-ads-zelf-beheren.html",
+    "local": {
+      "title": "Google ads uitbesteden vs Google Ads zelf beheren - Google Ads",
+      "description": "Informtie over Google Ads. Google ads uitbesteden vs Google Ads zelf beheren door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Google ads uitbesteden vs Google Ads zelf beheren - Google Ads",
+      "description": "Informtie over Google Ads. Google ads uitbesteden vs Google Ads zelf beheren door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/google-analytics-gebruiker-toevoegen.html",
+    "url": "https://tst.creation.nl/kennisbank/google-analytics-gebruiker-toevoegen.html",
+    "local": {
+      "title": "Google analytics gebruiker toevoegen - Google",
+      "description": "Informtie over Google. Google analytics gebruiker toevoegen door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Google analytics gebruiker toevoegen - Google",
+      "description": "Informtie over Google. Google analytics gebruiker toevoegen door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/ranking-factors.html",
+    "url": "https://tst.creation.nl/kennisbank/ranking-factors.html",
+    "local": {
+      "title": "Ranking factors - SEO",
+      "description": "Informtie over SEO. Ranking factors door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Ranking factors - SEO",
+      "description": "Informtie over SEO. Ranking factors door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/serp.html",
+    "url": "https://tst.creation.nl/kennisbank/serp.html",
+    "local": {
+      "title": "SERP - Google",
+      "description": "Informtie over Google. SERP door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "SERP - Google",
+      "description": "Informtie over Google. SERP door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/uit-hoeveel-computers-bestaat-google.html",
+    "url": "https://tst.creation.nl/kennisbank/uit-hoeveel-computers-bestaat-google.html",
+    "local": {
+      "title": "Uit hoeveel computers bestaat Google? - Google",
+      "description": "Informtie over Google. Uit hoeveel computers bestaat Google? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Uit hoeveel computers bestaat Google? - Google",
+      "description": "Informtie over Google. Uit hoeveel computers bestaat Google? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/wat-is-een-clicktag.html",
+    "url": "https://tst.creation.nl/kennisbank/wat-is-een-clicktag.html",
+    "local": {
+      "title": "Wat is een clicktag? - Banners",
+      "description": "Informtie over Banners. Wat is een clicktag? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Wat is een clicktag? - Banners",
+      "description": "Informtie over Banners. Wat is een clicktag? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/wat-is-een-homepage-takeover.html",
+    "url": "https://tst.creation.nl/kennisbank/wat-is-een-homepage-takeover.html",
+    "local": {
+      "title": "Wat is een homepage takeover - Banners",
+      "description": "Informtie over Banners. Wat is een homepage takeover door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Wat is een homepage takeover - Banners",
+      "description": "Informtie over Banners. Wat is een homepage takeover door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/wat-is-het-google-ads-doorklik-percentage.html",
+    "url": "https://tst.creation.nl/kennisbank/wat-is-het-google-ads-doorklik-percentage.html",
+    "local": {
+      "title": "Wat is het Google Ads doorklik percentage? - Google Ads",
+      "description": "Informtie over Google Ads. Wat is het Google Ads doorklik percentage? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Wat is het Google Ads doorklik percentage? - Google Ads",
+      "description": "Informtie over Google Ads. Wat is het Google Ads doorklik percentage? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/wat-zijn-flash-banners.html",
+    "url": "https://tst.creation.nl/kennisbank/wat-zijn-flash-banners.html",
+    "local": {
+      "title": "Wat zijn flash banners? - Banners",
+      "description": "Informtie over Banners. Wat zijn flash banners? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Wat zijn flash banners? - Banners",
+      "description": "Informtie over Banners. Wat zijn flash banners? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank/wat-zijn-webvitals.html",
+    "url": "https://tst.creation.nl/kennisbank/wat-zijn-webvitals.html",
+    "local": {
+      "title": "Wat zijn webvitals? - SEO",
+      "description": "Informtie over SEO. Wat zijn webvitals? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "live": {
+      "title": "Wat zijn webvitals? - SEO",
+      "description": "Informtie over SEO. Wat zijn webvitals? door Creation Online Marketing Bureau in Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "kennisbank.html",
+    "url": "https://tst.creation.nl/kennisbank.html",
+    "local": {
+      "title": "Kennisbank Online Marketing",
+      "description": "Alle informatie over Online Marketing in onze kennisbank. Leer alle begrippen over SEO, SEA en advertising."
+    },
+    "live": {
+      "title": "Kennisbank Online Marketing",
+      "description": "Alle informatie over Online Marketing in onze kennisbank. Leer alle begrippen over SEO, SEA en advertising."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "onderwerp/banners.html",
+    "url": "https://tst.creation.nl/onderwerp/banners.html",
+    "local": {
+      "title": "Banners en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over Banners bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "live": {
+      "title": "Banners en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over Banners bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "onderwerp/google-ads.html",
+    "url": "https://tst.creation.nl/onderwerp/google-ads.html",
+    "local": {
+      "title": "Google Ads en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over Google Ads bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "live": {
+      "title": "Google Ads en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over Google Ads bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "onderwerp/google.html",
+    "url": "https://tst.creation.nl/onderwerp/google.html",
+    "local": {
+      "title": "Google en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over Google bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "live": {
+      "title": "Google en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over Google bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "onderwerp/seo.html",
+    "url": "https://tst.creation.nl/onderwerp/seo.html",
+    "local": {
+      "title": "SEO en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over SEO bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "live": {
+      "title": "SEO en alles wat je erover wil weten bij Creation",
+      "description": "Lees alles over SEO bij Creation Online Marketing in Rotterdam. Het #1 online marketing bureau."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "online-marketing-bureau.html",
+    "url": "https://tst.creation.nl/online-marketing-bureau.html",
+    "local": {
+      "title": "Online Marketing Bureau in Rotterdam - Creation",
+      "description": "Het #1 Online Marketing Bureau van Rotterdam. Op zoek naar een partner om jouw online ambities waar te maken? Bel Creation 010-2680368"
+    },
+    "live": {
+      "title": "Online Marketing Bureau in Rotterdam - Creation",
+      "description": "Het #1 Online Marketing Bureau van Rotterdam. Op zoek naar een partner om jouw online ambities waar te maken? Bel Creation 010-2680368"
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "online-marketing-coaching.html",
+    "url": "https://tst.creation.nl/online-marketing-coaching.html",
+    "local": {
+      "title": "Online Marketing Coaching voor MKB",
+      "description": "Zelf je eigen advertenties en campagnes maken met hulp van een ervaren professional. Kies voor een online marketing coach. Maak gratis kennis."
+    },
+    "live": {
+      "title": "Online Marketing Coaching voor MKB",
+      "description": "Zelf je eigen advertenties en campagnes maken met hulp van een ervaren professional. Kies voor een online marketing coach. Maak gratis kennis."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "online-marketing.html",
+    "url": "https://tst.creation.nl/online-marketing.html",
+    "local": {
+      "title": "Online Marketing voor meer bezoekers naar je website",
+      "description": "Je website goed vindbaar, meer bezoekers door Google Ads of spetterende HTML5 banners voor je display campagne. Bel Creation uit Rotterdam."
+    },
+    "live": {
+      "title": "Online Marketing voor meer bezoekers naar je website",
+      "description": "Je website goed vindbaar, meer bezoekers door Google Ads of spetterende HTML5 banners voor je display campagne. Bel Creation uit Rotterdam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/ahoy.html",
+    "url": "https://tst.creation.nl/portfolio/ahoy.html",
+    "local": {
+      "title": "Ahoy Rotterdam opent een nieuw conferentie centrum",
+      "description": "Op zoek naar online marketing voor event centrum? Creation verzorgt banners voor Ahoy."
+    },
+    "live": {
+      "title": "Ahoy Rotterdam opent een nieuw conferentie centrum",
+      "description": "Op zoek naar online marketing voor event centrum? Creation verzorgt banners voor Ahoy."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/besured.html",
+    "url": "https://tst.creation.nl/portfolio/besured.html",
+    "local": {
+      "title": "Besured merk introductie banners",
+      "description": "Op zoek naar online marketing voor verzekeringen? Creation verzorgt online marketing voor Besured."
+    },
+    "live": {
+      "title": "Besured merk introductie banners",
+      "description": "Op zoek naar online marketing voor verzekeringen? Creation verzorgt online marketing voor Besured."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/bnr.html",
+    "url": "https://tst.creation.nl/portfolio/bnr.html",
+    "local": {
+      "title": "Business Nieuws Radio - BNR banners in html5",
+      "description": "Ben net zoals BNR met spoed op zoek naar banners voor je google ads campagne? Creation helpt je graag verder."
+    },
+    "live": {
+      "title": "Business Nieuws Radio - BNR banners in html5",
+      "description": "Ben net zoals BNR met spoed op zoek naar banners voor je google ads campagne? Creation helpt je graag verder."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/dhs-projecten.html",
+    "url": "https://tst.creation.nl/portfolio/dhs-projecten.html",
+    "local": {
+      "title": "DHS Projecten voor balkonhekken en dakterrassen",
+      "description": "Op zoek naar dakterras of balkonhek? DHS projecten helpt je aan een maatwerk balkonhek. Creation verzorgt de marketing voor DHS projecten."
+    },
+    "live": {
+      "title": "DHS Projecten voor balkonhekken en dakterrassen",
+      "description": "Op zoek naar dakterras of balkonhek? DHS projecten helpt je aan een maatwerk balkonhek. Creation verzorgt de marketing voor DHS projecten."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/hero.html",
+    "url": "https://tst.creation.nl/portfolio/hero.html",
+    "local": {
+      "title": "Hero jam banner voor Google Ads",
+      "description": "Creation ontwikkelt bannersets voor Hero jam."
+    },
+    "live": {
+      "title": "Hero jam banner voor Google Ads",
+      "description": "Creation ontwikkelt bannersets voor Hero jam."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/kanzi.html",
+    "url": "https://tst.creation.nl/portfolio/kanzi.html",
+    "local": {
+      "title": "Kanzi appels is een Europees merk fruit",
+      "description": "Op zoek naar online marketing voor jouw project? Wij helpen je graag verder en maken html5 banners, zoals bv voor Kanzi appels."
+    },
+    "live": {
+      "title": "Kanzi appels is een Europees merk fruit",
+      "description": "Op zoek naar online marketing voor jouw project? Wij helpen je graag verder en maken html5 banners, zoals bv voor Kanzi appels."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/rtl.html",
+    "url": "https://tst.creation.nl/portfolio/rtl.html",
+    "local": {
+      "title": "RTL eigen huis en tuin - Creation maakte banners voor RTL",
+      "description": "Op zoek naar banners? Creation verzorgt een bannerset voor RTL."
+    },
+    "live": {
+      "title": "RTL eigen huis en tuin - Creation maakte banners voor RTL",
+      "description": "Op zoek naar banners? Creation verzorgt een bannerset voor RTL."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio/treinrondreis.html",
+    "url": "https://tst.creation.nl/portfolio/treinrondreis.html",
+    "local": {
+      "title": "Treinrondreis verkoopt stedentrips en rondreizen door heel Europa",
+      "description": "Op zoek naar online marketing voor de reisbranche? Creation verzorgt online marketing voor Treinrondreis."
+    },
+    "live": {
+      "title": "Treinrondreis verkoopt stedentrips en rondreizen door heel Europa",
+      "description": "Op zoek naar online marketing voor de reisbranche? Creation verzorgt online marketing voor Treinrondreis."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "portfolio.html",
+    "url": "https://tst.creation.nl/portfolio.html",
+    "local": {
+      "title": "Portfolio van Creation. Bekijk onze online marketing projecten",
+      "description": "Ben jij op zoek naar een online marketing bureau? Bekijk onze SEO &amp; SEA projecten in ons portfolio."
+    },
+    "live": {
+      "title": "Portfolio van Creation. Bekijk onze online marketing projecten",
+      "description": "Ben jij op zoek naar een online marketing bureau? Bekijk onze SEO &amp; SEA projecten in ons portfolio."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "privacy.html",
+    "url": "https://tst.creation.nl/privacy.html",
+    "local": {
+      "title": "Privacy verklaring creation",
+      "description": "Dit is de uitleg over hoe wij persoonsgegevens verwerken."
+    },
+    "live": {
+      "title": "Privacy verklaring creation",
+      "description": "Dit is de uitleg over hoe wij persoonsgegevens verwerken."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  },
+  {
+    "path": "voorwaarden.html",
+    "url": "https://tst.creation.nl/voorwaarden.html",
+    "local": {
+      "title": "Algemene voorwaarden Creation Online Marketing",
+      "description": "Algemene voorwaarden 9 april 2020 van Creation in Rotterdam.  Lees alles over de voorwaarden en garantie van online marketing, websites en hosting."
+    },
+    "live": {
+      "title": "Algemene voorwaarden Creation Online Marketing",
+      "description": "Algemene voorwaarden 9 april 2020 van Creation in Rotterdam.  Lees alles over de voorwaarden en garantie van online marketing, websites en hosting."
+    },
+    "titleMatch": true,
+    "descMatch": true,
+    "error": null
+  }
+]
