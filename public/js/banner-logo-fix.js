@@ -19,7 +19,7 @@
 
         // Show logo when scrolled more than 100px (main nav becomes sticky)
         if (scrollTop > 100) {
-            logo.style.display = 'block';
+            logo.style.display = 'inline-block';
         } else {
             logo.style.display = 'none';
         }
