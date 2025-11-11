@@ -208,12 +208,16 @@
             // Honeypot field voor spam protectie
             formData.append('website', '');
 
+            // Debug: log form data
+            console.log('Banner offerte form submitting to /api/banner-offerte.php');
+
             // Submit to API
             submitFormData(
                 '/api/banner-offerte.php',
                 formData,
                 function(response) {
                     // Success
+                    console.log('Banner offerte API response:', response);
                     submitButton.disabled = false;
                     submitButton.value = originalValue;
 
@@ -228,10 +232,10 @@
                         // Reset form
                         offerteForm.reset();
 
-                        // Optioneel: scroll naar success message
-                        if (successDiv) {
-                            successDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                        }
+                        // Redirect naar bedankt pagina na 2 seconden
+                        setTimeout(function() {
+                            window.location.href = '/banners/offerte-bedankt';
+                        }, 2000);
                     } else {
                         // Show error
                         if (errorDiv) {
@@ -243,6 +247,7 @@
                 },
                 function(errorMessage) {
                     // Error
+                    console.error('Banner offerte error:', errorMessage);
                     submitButton.disabled = false;
                     submitButton.value = originalValue;
 
