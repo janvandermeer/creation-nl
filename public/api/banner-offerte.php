@@ -71,16 +71,18 @@ if (empty($data['phone'])) {
     $errors[] = 'Telefoonnummer is verplicht.';
 }
 
+// Company is optional - use "Particulier" as default if empty
 if (empty($data['company'])) {
-    $errors[] = 'Bedrijfsnaam is verplicht.';
+    $data['company'] = 'Particulier';
 }
 
 if (empty($data['formats'])) {
     $errors[] = 'Selecteer minimaal één banner formaat.';
 }
 
+// Quantity/deadline is optional - use "Nog te bepalen" as default if empty
 if (empty($data['quantity'])) {
-    $errors[] = 'Aantal banners is verplicht.';
+    $data['quantity'] = 'Nog te bepalen';
 }
 
 // Additional spam protection: honeypot field
