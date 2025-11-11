@@ -10,3 +10,12 @@
 }
 
 /* Our JavaScript will show them when needed with inline styles */
+
+/**
+ * Banner Pages Logo Fix - Make Creation logo visible in subnavigation
+ * The Webflow animation (data-w-id) was hiding the logo with display:none
+ * This fix makes the logo visible on banner pages (werkwijze, tarieven, etc.)
+ */
+.subnavigatie .image-24 {
+    display: block !important;
+}
