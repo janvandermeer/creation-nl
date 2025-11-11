@@ -1,0 +1,12 @@
+/**
+ * Forms Fix CSS - Hide Webflow form messages by default
+ * These are controlled by our custom forms.js instead
+ */
+
+/* Hide success and error messages by default */
+.w-form-done,
+.w-form-fail {
+    display: none !important;
+}
+
+/* Our JavaScript will show them when needed with inline styles */
