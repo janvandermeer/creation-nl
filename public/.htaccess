@@ -60,13 +60,20 @@ Options -Indexes
     ExpiresByType application/font-woff2 "access plus 1 year"
 </IfModule>
 
-# Force HTTPS (als je SSL hebt geactiveerd)
-# Uncomment de regels hieronder na SSL certificaat activatie:
-# <IfModule mod_rewrite.c>
-#     RewriteEngine On
-#     RewriteCond %{HTTPS} off
-#     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# </IfModule>
+# URL Rewriting - Automatically add .html extension
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Force HTTPS (SSL actief)
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Add .html extension if file exists with .html
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
 
 # Protect sensitive files (voor als je later config files toevoegt)
 <FilesMatch "^(config\.php|\.env|composer\.json|composer\.lock|package\.json|\.git.*)$">

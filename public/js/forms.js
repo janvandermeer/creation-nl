@@ -87,7 +87,7 @@
 
                         // Redirect na 2 seconden (zoals origineel)
                         setTimeout(function() {
-                            window.location.href = '/contact-bedankt.html';
+                            window.location.href = '/contact-bedankt';
                         }, 2000);
                     } else {
                         // Show error
