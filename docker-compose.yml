@@ -1,11 +1,10 @@
-version: '3.8'
-
 services:
   web:
     build: .
     container_name: creation-nl-web
     ports:
       - "3033:80"
+      - "3034:443"
     volumes:
       - ./public:/var/www/html
       - ./src:/var/www/src
