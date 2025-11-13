@@ -1,0 +1,11 @@
+# robots.txt voor creation.nl
+# Allow all search engines
+
+User-agent: *
+Allow: /
+
+# Blokkeer API endpoints (geen SEO waarde)
+Disallow: /api/
+
+# Sitemap locatie
+Sitemap: https://www.creation.nl/sitemap.xml
